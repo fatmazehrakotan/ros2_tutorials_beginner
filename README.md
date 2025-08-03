@@ -1,4 +1,4 @@
-<!-- # 🚗 ROS2 Odometry Publisher & Subscriber Project
+# 🚗 ROS2 Odometry Publisher & Subscriber Project
 
 This project demonstrates how to create a basic ROS 2 workspace, build a custom package, and implement a publisher and subscriber using `nav_msgs/msg/Odometry` messages. Developed as part of a beginner ROS 2 tutorial series.
 
@@ -27,4 +27,4 @@ cd ~/ros2_ws/src
 ros2 pkg create --build-type ament_cmake <package_name>
 ros2 pkg create --build-type ament_cmake --node-name my_node my_package
 cd ~/ros2_ws
-colcon build -->
+colcon build
